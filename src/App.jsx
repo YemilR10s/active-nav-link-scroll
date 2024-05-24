@@ -24,7 +24,8 @@ function App() {
       </div>
 
       <div className="home" id='home'>
-        <p>Home</p>
+        <p className='caja1'>Home</p>
+        <p className='Caja2'>hero</p>
       </div>
       
       <div className="services" id='services'>

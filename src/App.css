@@ -51,10 +51,32 @@
   opacity: 1;
 }
 
-.home, .services{
+.home{
   width: 100%;
   height: 100vh;
   background-color: #5d5d5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+
+}
+.home .caja1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .caja2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services{
+  width: 100%;
+  height: 100vh;
+  background: #119600;
   display: flex;
   justify-content: center;
   align-items: center;
