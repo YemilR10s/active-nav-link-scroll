@@ -51,10 +51,30 @@
   opacity: 1;
 }
 
-.home, .services, .galeri, .contact{
+.home, .services{
   width: 100%;
   height: 100vh;
   background-color: #5d5d5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+
+}
+.galeri{
+  width: 100%;
+  height: 100vh;
+  background: #791414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+
+}
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: #197a7a;
   display: flex;
   justify-content: center;
   align-items: center;
